@@ -1,0 +1,173 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1800px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+
+/*__________________ATENDIMENTO________________*/
+
+/* Estilo geral para as tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Estilo para cabeçalhos das tabelas */
+th {
+    background-color: #0a2540; /* Azul chumbo */
+    color: #ebebeb; /* Cinza claro */
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+/* Estilo para células das tabelas */
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Alternância de cor nas linhas para melhor legibilidade */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Destaque na linha ao passar o mouse */
+tr:hover {
+    background-color: #a8b8c8; /* Azul claro */
+}
+
+/* Estilo para primeira coluna da tabela */
+td:first-child {
+    font-weight: bold;
+}
+
+/*__________________CONTATO________________*/
+
+/* Estilo geral para a seção de Contato */
+.contact-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Estilo para o título da seção */
+.contact-section h2 {
+    color: #0a2540; /* Azul chumbo */
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os detalhes de contato */
+.contact-details {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+/* Estilo para o iframe do Google Maps */
+.contact-map iframe {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo para o formulário */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilos para os campos de entrada e textarea */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+/* Estilo para o container dos botões */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Estilo para os botões */
+.contact-form button[type="submit"],
+.contact-form button[type="reset"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #0a2540; /* Azul chumbo */
+    color: #ebebeb; /* Cinza claro */
+}
+
+.contact-form button[type="reset"] {
+    background-color: #a8b8c8; /* Azul claro */
+    color: #0a2540;
+}
+
+.contact-form button[type="submit"]:hover,
+.contact-form button[type="reset"]:hover {
+    opacity: 0.9;
+}
